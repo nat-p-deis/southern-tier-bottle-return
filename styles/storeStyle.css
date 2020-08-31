@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	overflow-x: hidden;
+}
+.green{color: #8ABF52;}
+.blue{color: #1B8E99;}
+h1{
+	font: 'Source Sans Pro';
+	font-weight: 900;
+	font-size: 30pt;
+	padding-bottom: 4px;
+}
+p{
+	font-size: 24pt;
+	font-weight: 400;
+	color: #020703;
+	padding: 0 0 16px;
+}
+#head{
+	padding: 24px;
+	background-color: #1B8E99;
+	color: white;
+}
+.image{
+	height: 89.5vh;
+	min-width: 960px;
+}
+#bod{
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+#text{
+	padding: 42px;
+}
+#fbtext{
+	text-align: center;
+}
+#fbicon{
+	align-self: space-around;
+}
+#empty{
+	display: flex;
+	justify-content: space-around;
+}
+a{
+	color: #1B8E99;
+	text-decoration: none;
+}
+a:hover{
+	color: #8ABF52;
+}
+@media screen and (max-width: 900px){
+.image{
+	height: auto;
+	width: 100vw;
+	min-width: auto;
+}
+}
