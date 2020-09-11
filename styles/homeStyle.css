@@ -77,5 +77,35 @@ footer{
 	padding-bottom: 20px;
 }
 @media screen and (max-width: 900px){
-	
+	header,#par1,#par2,#par3{
+		padding-left: 16px;
+	}
+	h1,h2{
+		text-align: center;
+	}
+	#par2{
+		display: block;
+	}
+	#thumbnails{
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 1vw;
+		padding: 0;
+	}
+	#par1{
+		padding: 24px 0;
+	}
+	#txt{
+		color: white;
+		font-weight: 600;
+		letter-spacing: 2px;
+		line-height: 44px;
+	}
+	#whoweare{
+		position: absolute;
+		padding: 8px;
+		background-color: rgba(2, 7, 3,0.6);
+		height: 744px;
+	}
 }
