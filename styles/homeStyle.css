@@ -69,6 +69,11 @@ footer{
 	width: 100%;
 	min-width: 260px;
 }
+.acc2{
+	width: 100%;
+	min-width: 260px;
+	display: none;
+}
 .info{
 	width: auto;
 	padding-left: 24px;
@@ -93,6 +98,12 @@ footer{
 		grid-gap: 1vw;
 		padding: 0;
 	}
+	.acc1{
+		display: none;
+	}
+	.acc2{
+		display: block;
+	}
 	#par1{
 		padding: 24px 0;
 	}
@@ -104,8 +115,6 @@ footer{
 	}
 	#whoweare{
 		position: absolute;
-		padding: 8px;
-		background-color: rgba(2, 7, 3,0.6);
-		height: 744px;
+		padding: 16px 8px;
 	}
 }
